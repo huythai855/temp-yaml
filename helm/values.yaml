@@ -1,0 +1,13 @@
+# nginx-helm-chart/values.yaml
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: "1.14.2"
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+
+resources: {}

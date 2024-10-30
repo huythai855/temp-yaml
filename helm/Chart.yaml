@@ -1,0 +1,6 @@
+# nginx-helm-chart/Chart.yaml
+apiVersion: v2
+name: nginx
+description: A Helm chart for Kubernetes NGINX deployment
+version: 0.1.0
+appVersion: "1.14.2"
